@@ -1,0 +1,97 @@
+footer{
+  background-color: #31314A;
+}
+#footer {
+  color: white;
+}
+#footer .wrap {
+  width: 1280px;
+  position: relative;
+  top: -150px;
+}
+#footer .wrap ul.last {
+  margin-bottom: 25px;
+}
+#footer .wrap ul.last li {
+  position: relative;
+  left: -18px;
+}
+#footer .wrap ul.last li:not(:last-child){
+  border-right: 1px solid;
+}
+#footer .wrap ul.last li a {
+  color: white;
+  font-size: 15px;
+  padding: 0 18px;
+}
+#footer .wrap ul.last li:last-child a{
+  color: #5ac4be;
+}
+#footer .wrap .info {
+  line-height: 1.8;
+  color: #A2A2AD;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+#footer .wrap .info address {
+}
+#footer .wrap p.copyright {
+  color: #A2A2AD;
+  font-size: 15px;
+  font-weight: 300;
+}
+#footer .wrap .side {
+  position: absolute;
+  right: 0;
+  bottom: 30%;
+  align-items: end;
+}
+#footer .wrap .side span {
+  display: block;
+  border-radius: 40px;
+  line-height: 3;
+  padding: 0px 28px 0 28px;
+  background-color: #5A5A6E;
+  margin-bottom: 5px;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+}
+#footer .wrap .side span::after{
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-image: url(../img/family_arrow.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 50px;
+}
+#footer .wrap .side ul > a {
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-color: transparent;
+  border-radius: 50%;
+  font-size: 0;
+  transition: all 1s;
+}
+#footer .wrap .side ul > a:hover{
+  opacity: 0.8;
+}
+#footer .wrap .side a.blog {
+  background-image: url(../img/blog.png);
+}
+#footer .wrap .side a.youtube {
+  background-image: url(../img/youtube.png);
+}
+#footer .wrap .side a.insta {
+  background-image: url(../img/instagram.png);
+}
+#footer .wrap .side a.kakao {
+  background-image: url(../img/kakao_p.png);
+}

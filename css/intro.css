@@ -1,0 +1,66 @@
+#intro {
+
+}
+#intro .wrap {
+  width: 100%;
+  height: 296px;
+  background-image: url(../img/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #5ac4be;
+}
+#intro .wrap h2 {
+
+}
+#intro .wrap ul {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+#intro .wrap ul a {
+  width: 100%;
+  justify-content: space-evenly;
+}
+#intro .wrap ul a li {
+  display: flex;
+  align-items: center;
+}
+#intro .wrap ul a li::before{
+  content: "";
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: transparent;
+  background-position: center;
+  background-size: contain;
+  margin: 0 25px;
+  transition: all 0.5s;
+}
+#intro .wrap ul a li:hover::before{
+  transform: translateX(13px);
+}
+#intro .wrap ul a li:nth-child(1)::before{
+  background-image: url(../img/quick01.png);
+}
+#intro .wrap ul a li:nth-child(2)::before{
+  background-image: url(../img/quick02.png);
+}
+#intro .wrap ul a li:nth-child(3)::before{
+  background-image: url(../img/quick03.png);
+}
+#intro .wrap ul a li:nth-child(4)::before{
+  background-image: url(../img/quick04.png);
+}
+#intro .wrap ul a li .txt {
+
+}
+#intro .wrap ul a li .txt h3 {
+  line-height: 2;
+  font-weight: 500;
+}
+#intro .wrap ul a li .txt p {
+  font-size: 18px;
+  color: #565B65;
+  letter-spacing: -0.06em;
+}

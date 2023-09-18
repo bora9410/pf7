@@ -1,0 +1,95 @@
+#news {
+  background: #f0f4f5;
+}
+#news .wrap {
+  padding-bottom: 350px;
+  position: relative;
+}
+#news .wrap h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+#news .wrap .notice{
+  padding-bottom: 30px;
+  display: block;
+  width: 1280px;
+}
+#news .wrap .notice article {
+  width: 390px;
+  padding: 0 15px;
+}
+#news .slick-prev{
+  background-color: black;
+}
+#news .slick-next{
+  background-color: black;
+}
+#news .wrap .notice article a {
+  display: block;
+  width: 390px;
+  height: 245px;
+  border-radius: 30px;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 40px;
+  position: relative;
+}
+#news .wrap .notice article a span {
+  color: #eb3192;
+  font-size: 13px;
+  font-weight: 500;
+}
+#news .wrap .notice article a h3 {
+  font-weight: 400;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 18px 0 18px;
+  letter-spacing: -0.5pt;
+}
+#news .wrap .notice article a p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+#news .wrap .notice article a time {
+  font-size: 15px;
+  font-weight: 400;
+  color: #A9A1A1;
+  position: absolute;
+  bottom: 50px;
+}
+#news .wrap a.button{
+  background-color: #fce72e;
+  padding: 0 50px;
+  margin: 0 auto;
+  font-weight: 800;
+  transition: all 1s;
+}
+#news .wrap a.button:hover{
+  background: #eb3192;
+  color: #fff;
+}
+#news .wrap .pass{
+  position: absolute;
+  width: 80%;
+  top: calc(50% - 150px);
+}
+#news .wrap .pass .prev{
+  display: inline-block;
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/arrow_left.png);
+  background-size: contain;
+  background-repeat: no-repeat; 
+}
+#news .wrap .pass .next{
+  display: inline-block;
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/arrow_right.png);
+  background-size: contain;
+  background-repeat: no-repeat; 
+}

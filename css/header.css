@@ -1,0 +1,72 @@
+header {
+  position: absolute;
+  left: calc(50% - 635px);
+  z-index: 1;
+}
+header .wrap {
+  width: 1280px;
+}
+header .wrap nav {
+  justify-content: space-between;
+  padding: 30px 25px;
+  line-height: 2.8;
+}
+header .wrap nav h1 {
+
+}
+header .wrap nav h1 a {
+  background-image: url(../img/logo_w.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  width: 240px;
+  height: 44px;
+  font-size: 0;
+}
+header .wrap nav ul {
+
+}
+header .wrap nav ul li {
+
+}
+header .wrap nav ul li a {
+  font-size: 19px;
+  font-weight: 500;
+  padding: 20px 43px 20px 0px;
+  color: white;
+}
+header .wrap nav span{
+
+}
+header .wrap nav span a{
+  background-color: #5ac4be;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: all 0.5s;
+}
+header .wrap nav span a:hover{
+  background-color: #fce72e;
+}
+
+
+/* header 메뉴바 */
+
+header .menu {
+  width: 618px;
+  margin: 0 auto;
+  /*! background-color: white; */
+}
+header .menu .head_sub {
+  width: calc(100% / 5);
+  padding: 0 20px;
+  transform: translateX(55px);
+}
+header .menu .head_sub ul {
+}
+header .menu .head_sub ul li {
+  line-height: 1.5;
+}
+header .menu .head_sub ul li a {
+  color: #555563;
+}

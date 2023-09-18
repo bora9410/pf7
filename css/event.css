@@ -1,0 +1,101 @@
+#event {
+
+}
+#event .wrap {
+  width: 1280px;
+}
+#event .wrap .txt {
+
+  width: 315px;
+  position: relative;
+}
+#event .wrap .txt h2 {
+  font-weight: 600;
+  font-size: 32px;
+  padding: 40px 0;
+  letter-spacing: -0.03em;
+  line-height: 1.4;
+}
+#event .wrap .txt a.button{
+  background-color: #fce72e;
+  padding: 0 50px;
+  font-weight: 600;
+  transition: all 1s;
+}
+#event .wrap .txt a.button:hover{
+  background: #eb3192;
+  color: #fff;  
+}
+#event .wrap .txt a{
+  
+}
+#event .wrap .txt span{
+  border: none;
+  background-color: transparent;
+  font-size: 0;
+  width: 25px;
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 55px;
+  right: 30%;
+}
+#event .wrap .txt span.back {
+  background-image: url(../img/arrow_left.png);
+}
+#event .wrap .txt span.forward{
+  background-image: url(../img/arrow_right.png);
+  right: calc(30% - 40px);
+}
+#event .wrap ul.list {
+  overflow: hidden;
+  width: calc(100% - 270px);
+  /*! margin-left: 33px; */
+  /*! display: block; */
+}
+#event .wrap ul.list li {
+  padding: 0 15px;
+}
+#event .wrap ul.list li.event1 a{
+  background-image: url(../img/event3.png);
+}
+#event .wrap ul.list li.event2 a{
+  background-image: url(../img/event4.png);
+}
+#event .wrap ul.list li.event3 a{
+  background-image: url(../img/event5.png);
+}
+#event .wrap ul.list li.event4 a{
+  background-image: url(../img/event6.png);
+}
+#event .wrap ul.list li.event5 a{
+  background-image: url(../img/event7.png);
+}
+#event .wrap ul.list li.event6 a{
+  background-image: url(../img/event1.png);
+}
+#event .wrap ul.list li.event7 a{
+  background-image: url(../img/event2.png);
+}
+#event .wrap ul.list li a {
+  width: 301px;
+  height: 301px;
+  display: block;
+  border-radius: 30px;
+  background-color: #eee;
+  background-size: contain;
+}
+#event .wrap ul.list li a:hover > img{
+  transform: scale(1.1);
+}
+#event .wrap ul.list li a img{
+  max-width: 100%;
+  width: 301px;
+  height: 301px;
+  display: block;
+  border-radius: 30px;
+  background-color: #eee;
+  background-size: contain;
+}

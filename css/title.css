@@ -1,0 +1,69 @@
+#title {
+  width: 100%;
+  height: 750px;
+  position: relative;
+  background-image: url(../img/title_1.png);
+  background-color: #EB3192;
+  background-position: center;
+}
+#title .wrap {
+  position: absolute;
+  left: calc(50% - 623px);
+  top: calc(100% / 3.5);
+}
+#title .txt{
+}
+
+#title .txt p {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 30px;
+}
+#title .txt h2 {
+  color: #ffe931;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 1.3;
+  padding-bottom: 45px;
+}
+#title .txt a {
+  background-color: white;
+  color: #EB3192;
+  font-weight: 700;
+  padding: 0 40px;
+  line-height: 3.3;
+  font-size: 18px;
+  transition: all 1s;
+}
+#title .txt a:hover{
+  background-color: #fce72e;
+}
+#title .wrap ul {
+
+  position: absolute;
+  bottom: -180px;
+}
+#title .wrap ul li {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: white;
+  display: inline-block;
+  cursor: pointer;
+}
+#title .wrap ul li a {
+
+}
+#title .wrap ul span {
+}
+#title .wrap ul span a {
+  background-image: url(../img/stop.png);
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-left: 15px;
+}

@@ -1,0 +1,114 @@
+#banner {
+
+}
+#banner .wrap {
+  width: 1280px;
+  position: relative;
+  top: -240px;
+}
+#banner .wrap ul {
+  justify-content: space-between;
+}
+#banner .wrap ul li{
+  width: 390px;
+  height: 435px;
+  border-radius: 30px;
+  background: #5ac4be;
+  box-sizing: border-box;
+  padding: 50px 45px;
+}
+#banner .wrap ul li.first {
+  background-image: url(../img/banner_1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#banner .wrap ul li.first p {
+  color: white;
+}
+#banner .wrap ul li.first h3 {
+  color: white;
+  padding: 20px 0 40px 0;
+  line-height: 1.5;
+  font-size: 24px;
+  font-weight: 700;
+}
+#banner .wrap ul li.first a {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  border-bottom: 1px solid white;
+}
+#banner .wrap ul li.second {
+
+}
+#banner .wrap ul li.second h4 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  align-items: center;
+}
+#banner .wrap ul li.second h4 a {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 1px solid white;
+}
+#banner .wrap ul li.second .list {
+  padding-top: 28px;
+}
+#banner .wrap ul li.second .list dl {
+
+}
+#banner .wrap ul li.second .list dl a {
+  display: flex;
+  flex-direction: column;
+  padding: 13px 0;
+}
+#banner .wrap ul li.second .list dl:not(:last-child) a{
+  border-bottom: 1px dashed white;
+}
+#banner .wrap ul li.second .list dl a span{
+  display: block;
+  border-radius: 40px;
+  line-height: 1.5;
+  padding: 0 20px;
+  background-color: #fce72e;
+  text-align: center;
+  margin-bottom: 5px;
+  color: #445150;
+  font-size: 14px;
+  font-weight: 600;
+}
+#banner .wrap ul li.second .list dl a p {
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#banner .wrap ul li.second .list dl a p:hover{
+  color: #fce72e;
+}
+#banner .wrap ul li.third {
+  background-image: url(../img/banner_2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#banner .wrap ul li.third p {
+  font-size: 17px;
+  color: #5C5C5C;
+}
+#banner .wrap ul li.third h3 {
+  padding: 20px 0 40px 0;
+  line-height: 1.5;
+  font-size: 24px;
+  font-weight: 700;
+}
+#banner .wrap ul li.third a {
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 1px solid #333;
+}
